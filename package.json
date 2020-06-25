@@ -2,16 +2,22 @@
   "name": "confusion",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "Ankita Ugale",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitaugale23/Bootstrap4.git"
+  },
+  "author": "ankita ugale",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankitaugale23/Bootstrap4/issues"
+  },
+  "homepage": "https://github.com/ankitaugale23/Bootstrap4#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0",
-    "http-server": "^0.12.3",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.12.9"
+    "nodemon": "^2.0.4"
   }
 }
